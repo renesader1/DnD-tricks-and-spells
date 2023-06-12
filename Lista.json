@@ -1,4 +1,4 @@
-{
+[{
   "spells": [
     {
       "name": "Fireball",
@@ -65,4 +65,4 @@
       "description": "Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage."
     }
   ]
-}
+}]
