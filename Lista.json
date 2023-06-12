@@ -1,68 +1,24 @@
+[{
+    "Marca" : "Volkswagen",
+    "Ano" : "2005",
+    "Modelo" : "Gol",
+    "cor" : "Vermelho"
+},
 {
-  "spells": [
-    {
-      "name": "Fireball",
-      "level": 3,
-      "school": "Evocation",
-      "casting_time": "1 action",
-      "range": "150 feet",
-      "components": {
-        "verbal": true,
-        "somatic": true,
-        "material": true
-      },
-      "duration": "Instantaneous",
-      "description": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame.",
-      "higher_levels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
-    },
-    {
-      "name": "Mage Armor",
-      "level": 1,
-      "school": "Abjuration",
-      "casting_time": "1 action",
-      "range": "Touch",
-      "components": {
-        "verbal": true,
-        "somatic": true,
-        "material": true
-      },
-      "duration": "8 hours",
-      "description": "You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends.",
-      "higher_levels": null
-    },
-    {
-      "name": "Invisibility",
-      "level": 2,
-      "school": "Illusion",
-      "casting_time": "1 action",
-      "range": "Touch",
-      "components": {
-        "verbal": true,
-        "somatic": true,
-        "material": true
-      },
-      "duration": "Concentration, up to 1 hour",
-      "description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person."
-    }
-  ],
-  "tricks": [
-    {
-      "name": "Cunning Action",
-      "level": 2,
-      "class": "Rogue",
-      "description": "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
-    },
-    {
-      "name": "Second Wind",
-      "level": 1,
-      "class": "Fighter",
-      "description": "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level."
-    },
-    {
-      "name": "Divine Smite",
-      "level": 1,
-      "class": "Paladin",
-      "description": "Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage."
-    }
-  ]
-}
+    "Marca" : "Fiat",
+    "Ano" : "2010",
+    "Modelo" : "Palio",
+    "cor" : "Preto"
+},
+{
+    "Marca" : "Ford",
+    "Ano" : "2005",
+    "Modelo" : "Fiesta",
+    "cor" : "Prata"
+},
+{
+    "Marca" : "Chevrolet",
+    "Ano" : "1950",
+    "Modelo" : "Opala",
+    "cor" : "Azul"
+}]
