@@ -1,11 +1,13 @@
-
-
 async function GetLista(){
-    Lista = await fetch("https://raw.githubusercontent.com/renesader1/DnD-tricks-and-spells/main/Lista.json")
-
-    ListaConvertida = await Lista.json()
-
-    return ListaConvertida.
+    const Lista = await fetch("https://raw.githubusercontent.com/renesader1/DnD-tricks-and-spells/main/Lista.json")
+    let ListaConvertida = await Lista.json() 
+    AcessaLista(ListaConvertida)
+}
+ 
+function AcessaLista(lista){
+    lista.map(e => {
+        console.log(e)
+    });
 }
 
-console.log(GetLista())
+GetLista()
