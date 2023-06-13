@@ -1,0 +1,23 @@
+body{
+    padding: 10%;
+    background-color: #A0A0A0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seletor-classes-suspenso{
+    border: none;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+:focus{
+    outline: none;
+}
+
+.opcao-classe{
+    color: #000000
+}
