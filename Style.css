@@ -1,5 +1,5 @@
 body{
-    padding: 10%;
+    padding: 15%;
     background-color: #A0A0A0;
 }
 
@@ -12,12 +12,16 @@ body{
     border: none;
     color: #ffffff;
     background-color: transparent;
+    
 }
 
 :focus{
     outline: none;
 }
 
-.opcao-classe{
-    color: #000000
+option{
+    
+    background: #A0A0A0;
+    color: #ffffff;
+	box-shadow: none;
 }
