@@ -6,8 +6,8 @@
     "casting_time": "1 action",
     "range": "150 feet",
     "components": {
-      "verbal": true,
-      "somatic": true,
+      "verbal": false,
+      "somatic": false,
       "material": true
     },
     "duration": "Instantaneous",
@@ -22,7 +22,7 @@
     "range": "Touch",
     "components": {
       "verbal": true,
-      "somatic": true,
+      "somatic": false,
       "material": true
     },
     "duration": "8 hours",

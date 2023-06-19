@@ -12,7 +12,21 @@ async function GetLista(){
 }
  
 function ExibeLista(lista){
+    
+
+
     lista.forEach(element => {
+        let material = element.components.material ? `<div class="material-magia">
+        <img src="./assets/Material.svg" alt="simbolo do material da magia" class="imagem-meterial">
+        <p class="texto-material"></p>
+        </div>` : ""
+
+        let verbal = element.components.verbal ? `<img src="./assets/Verbal.svg" alt="simbolo do componente somático" class="imagem-verbal">`: ""
+
+
+        let somatico = element.components.somatic ? `<img src="./assets/Somático.svg" alt="simbolo do componente somático" class="imagem-somatico">` : ""
+
+
         secaoCards.innerHTML += `<div class="card">
         <div class="container-esquerda">
             <div class="container-nome-escola-nivel">
@@ -43,12 +57,9 @@ function ExibeLista(lista){
             </div>
         </div>
         <div class="container-direita">
-            <div class="material-magia">
-                <img src="./assets/Material.svg" alt="simbolo do material da magia" class="imagem-meterial">
-                <p class="texto-material"></p>
-            </div>
-            <img src="./assets/Verbal.svg" alt="simbolo do componente verbal" class="imagem-verbal">
-            <img src="./assets/Somático.svg" alt="simbolo do componente somático" class="imagem-somatico">
+            ${material}
+            ${verbal}
+            ${somatico}            
         </div>
     </div>`  
 });
