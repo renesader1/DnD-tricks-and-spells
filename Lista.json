@@ -6,7 +6,7 @@
     "casting_time": "1 action",
     "range": "150 feet",
     "components": {
-      "verbal": false,
+      "verbal": true,
       "somatic": false,
       "material": true
     },
