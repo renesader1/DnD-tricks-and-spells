@@ -40,11 +40,22 @@ option{
 .container-nome-escola-nivel{
     display: flex;
     margin: .5em;
-    gap: .5em;
+    align-items: baseline;
+    
+}
+
+.nome-magia{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.nivel-magia{
+    font-size: 2em;
+    font-weight: 700;
 }
 
 .container-descricao{
-    margin: .5em;
+    margin: 2em .5em;
 }
 
 .container-duracao-acao-range{
