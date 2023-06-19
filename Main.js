@@ -16,15 +16,17 @@ function ExibeLista(lista){
 
 
     lista.forEach(element => {
-        let material = element.components.Material ? `<div class="material-magia">
+
+        
+        let material = element.components.material ? `<div class="material-magia">
         <img src="./assets/Material.svg" alt="simbolo do material da magia" class="imagem-meterial">
         <p class="texto-material"></p>
         </div>` : ""
 
-        let verbal = element.components.verbal ? `<img src="./assets/Somático.svg" alt="simbolo do componente somático" class="imagem-somatico">`: ""
+        let verbal = element.components.verbal ? `<img src="./assets/Verbal.svg" alt="simbolo do componente verbal" class="imagem-verbal">`: "<p></p>"
 
 
-        let somatico = element.components.somatic ? `<img src="./assets/Somático.svg" alt="simbolo do componente somático" class="imagem-somatico">` : ""
+        let somatico = element.components.somatic ? `<img src="./assets/Somático.svg" alt="simbolo do componente somático" class="imagem-somatico">` : "<p></p>"
 
 
         secaoCards.innerHTML += `<div class="card">
