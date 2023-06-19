@@ -16,7 +16,7 @@ function ExibeLista(lista){
 
 
     lista.forEach(element => {
-
+        console.log("passou")
         
         let material = element.components.material ? `<div class="material-magia">
         <img src="./assets/Material.svg" alt="simbolo do material da magia" class="imagem-meterial">
