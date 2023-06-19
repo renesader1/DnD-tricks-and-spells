@@ -47,12 +47,23 @@
     "name": "Cunning Action",
     "level": 2,
     "class": "Rogue",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true
+    },
+    
     "description": "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
   },
   {
     "name": "Second Wind",
     "level": 1,
     "class": "Fighter",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true
+    },
     "description": "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level."
   },
   {

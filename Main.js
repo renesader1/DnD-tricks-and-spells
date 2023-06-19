@@ -6,8 +6,8 @@ async function GetLista(){
     try{
         ExibeLista(ListaConvertida)
     }
-    catch{
-        console.log("erro")
+    catch(Erro){
+        console.log(Erro)
     }
 }
  
