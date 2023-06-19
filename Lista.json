@@ -7,7 +7,7 @@
     "range": "150 feet",
     "components": {
       "verbal": true,
-      "somatic": true,
+      "somatic": false,
       "material": true
     },
     "duration": "Instantaneous",
