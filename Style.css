@@ -10,6 +10,7 @@ body{
 .cabecalho{
     display: flex;
     justify-content: space-between;
+    padding:0 3em ;
 }
 
 .seletor-classes-suspenso{
@@ -17,6 +18,11 @@ body{
     color: #ffffff;
     background-color: transparent;
     
+}
+
+select:focus {
+    outline: none;
+    border: none;
 }
 
 option{
@@ -34,6 +40,7 @@ option{
     align-items: center;
     margin-top: 1em;
     border-radius: 15px;
+    
 }
 
 
@@ -62,11 +69,16 @@ option{
     margin: .5em;
     gap: .5em;
     display: flex;
+    text-align: center;
 }
 
+.duracao-magia, .acao-magia, .range-magia{
+    margin: .5em
+}
 
 .container-direita{
     display: flex;
     flex-direction: column;
     gap: .5em;
+    
 }
