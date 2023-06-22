@@ -1,19 +1,21 @@
 [
   {
-    "nome": "Fireball",
-    "nivel": 3,
-    "escola": "Evocation",
-    "tempo_invocacao": "1 action",
-    "distancia": "150 feet",
-    "componentes": {
-      "verbal": true,
-      "somatico": false,
-      "material": true
+    "nome": "Amizade",
+    "nivel": 0,
+    "escola": "encantamento",
+    "tempo_invocacao": "1 ação",
+    "distancia": "pessoal",
+    "componentes" : 
+    {
+      "verbal": false,
+      "somatico": true,
+      "material": " uma pequena quantidade de maquiagem aplicada ao rosto durante a conjuração da magia."
     },
     "classe" : [],
-    "duracao": "Instantaneous",
-    "descricao": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame.",
-    "niveis_superiores": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+    "ritual": false, 
+    "duracao": "Até 1 minuto",
+    "descricao": "Pela duração, você terá vantagem em todos os testes de Carisma direcionados a uma criatura, à sua escolha, que não seja hostil a você. Quando a magia acabar, a criatura perceberá que você usou maia para influenciar o humor dela, e ficará hostil a você. Uma criatura propensa a violência irá atacar você. Outra criatura pode buscar outras formas de retaliação (a critério do Mestre), dependendo da natureza da sua interação com ela.",
+    "niveis_superiores ": ""
   }
   
 ]
