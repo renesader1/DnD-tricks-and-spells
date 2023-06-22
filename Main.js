@@ -4,6 +4,7 @@ async function GetLista(){
     const Lista = await fetch("https://raw.githubusercontent.com/renesader1/DnD-tricks-and-spells/main/Lista.json")
     const ListaConvertida = await Lista.json() 
     try{
+        
         ExibeLista(ListaConvertida)
     }
     catch(Erro){
@@ -12,7 +13,6 @@ async function GetLista(){
 }
  
 function ExibeLista(lista){
-    
 
 
     lista.forEach(element => {
@@ -24,7 +24,6 @@ function ExibeLista(lista){
         </div>` : ""
 
         let verbal = element.components.verbal ? `<img src="./assets/Verbal.svg" alt="simbolo do componente verbal" class="imagem-verbal">`: "<p></p>"
-
 
         let somatico = element.components.somatic ? `<img src="./assets/Somático.svg" alt="simbolo do componente somático" class="imagem-somatico">` : "<p></p>"
 
@@ -66,5 +65,10 @@ function ExibeLista(lista){
     </div>`  
 });
 }
+
+function FiltraListaPorClasse(lista, classe){
+    return listaFiltrada = lista.filter(item => item.classe == classe)
+}
+
 
 GetLista()
